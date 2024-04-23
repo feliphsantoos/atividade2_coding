@@ -5,6 +5,10 @@
     font-family: sans-serif;
 }
 
+body {
+    background-color: #f0f0f0;
+}
+
 header {
     background-color: rgb(58, 58, 58);
     width: 100%;
@@ -58,4 +62,32 @@ nav a:hover {
     padding: 20px 25px;
     border-radius: 4px;
     text-decoration: none;
+}
+
+.produto img {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    border: #e2e2e2 solid 1px;
+}
+
+.produto a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #0F1111;
+    text-decoration: none;
+}
+
+.produto a:hover {
+    color: rgb(243, 172, 79);
+}
+
+.itens {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    border: #080808;
+    justify-content: center;
+    text-align: center;
+    gap: 80px;
+    margin: 20px;
 }
