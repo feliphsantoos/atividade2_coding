@@ -28,7 +28,7 @@ header {
 
 .logo {
     font-size: 30px;
-    color:#fff
+    color:rgb(243, 172, 79);
 }
 
 nav {
@@ -90,4 +90,9 @@ nav a:hover {
     text-align: center;
     gap: 80px;
     margin: 20px;
+}
+
+.logo p {
+    font-size: medium;
+    color: #fff;
 }
